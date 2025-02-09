@@ -4,6 +4,9 @@ A Spotify assistant built on top of Chainlit that helps users create playlists, 
 
 ---
 
+## Demo
+A demo video file Spotify_demo.mov is added to this repository
+
 ## Capabilities
 
 - **Create Playlist**: Create a new playlist on Spotify.
@@ -48,9 +51,7 @@ Configuration variables will be read using `os.getenv()`. Ensure the following e
 ---
 
 ## How to Run
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+1. git clone git@github.com:maitreypd/agents.git .
+2. cd agents
+3. poetry install
+4. chainlit run main.py -w
